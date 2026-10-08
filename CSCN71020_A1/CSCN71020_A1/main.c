@@ -3,7 +3,6 @@
 void printWelcomeMenu();
 void printOptions();
 void add();
-void subtract();
 
 
 void main() {
@@ -15,7 +14,7 @@ void main() {
 	int inputNum;
 
 	printf("Enter operation number: ");
-	scanf_s("%d", &inputNum);
+	scanf_s("%1o", &inputNum);
 
 	switch (inputNum)
 	{
@@ -47,6 +46,4 @@ void add() {
 	printf("%lf + %lf = %lf\n", num1, num2, result);
 }
 
-void subtract() {
-	printf("Wrong function");
-}
+lsadhjflkjasdlfa
