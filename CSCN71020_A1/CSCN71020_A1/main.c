@@ -15,6 +15,7 @@ void main() {
 	int inputNum;
 
 	printf("Enter operation number: ");
+	//read the operation number as a decimal integer
 	scanf_s("%d", &inputNum);
 
 	switch (inputNum)
